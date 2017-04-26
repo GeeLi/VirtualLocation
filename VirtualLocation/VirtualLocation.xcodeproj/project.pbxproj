@@ -13,6 +13,8 @@
 		827710331EB0510F00F138D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827710311EB0510F00F138D3 /* Main.storyboard */; };
 		827710351EB0510F00F138D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827710341EB0510F00F138D3 /* Assets.xcassets */; };
 		827710381EB0510F00F138D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827710361EB0510F00F138D3 /* LaunchScreen.storyboard */; };
+		827710411EB0517500F138D3 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 827710401EB0517500F138D3 /* JZLocationConverter.m */; };
+		827710431EB0518700F138D3 /* JZG.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 827710421EB0518700F138D3 /* JZG.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		827710341EB0510F00F138D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		827710371EB0510F00F138D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		827710391EB0510F00F138D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8277103F1EB0517500F138D3 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		827710401EB0517500F138D3 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		827710421EB0518700F138D3 /* JZG.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JZG.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		827710271EB0510F00F138D3 /* VirtualLocation */ = {
 			isa = PBXGroup;
 			children = (
+				8277103F1EB0517500F138D3 /* JZLocationConverter.h */,
+				827710401EB0517500F138D3 /* JZLocationConverter.m */,
 				8277102B1EB0510F00F138D3 /* AppDelegate.h */,
 				8277102C1EB0510F00F138D3 /* AppDelegate.m */,
 				8277102E1EB0510F00F138D3 /* ViewController.h */,
 				8277102F1EB0510F00F138D3 /* ViewController.m */,
+				827710421EB0518700F138D3 /* JZG.gpx */,
 				827710311EB0510F00F138D3 /* Main.storyboard */,
 				827710341EB0510F00F138D3 /* Assets.xcassets */,
 				827710361EB0510F00F138D3 /* LaunchScreen.storyboard */,
@@ -140,6 +148,7 @@
 				827710381EB0510F00F138D3 /* LaunchScreen.storyboard in Resources */,
 				827710351EB0510F00F138D3 /* Assets.xcassets in Resources */,
 				827710331EB0510F00F138D3 /* Main.storyboard in Resources */,
+				827710431EB0518700F138D3 /* JZG.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				827710301EB0510F00F138D3 /* ViewController.m in Sources */,
+				827710411EB0517500F138D3 /* JZLocationConverter.m in Sources */,
 				8277102D1EB0510F00F138D3 /* AppDelegate.m in Sources */,
 				8277102A1EB0510F00F138D3 /* main.m in Sources */,
 			);
